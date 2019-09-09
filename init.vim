@@ -38,21 +38,7 @@ au BufRead,BufNewFile *.md setlocal textwidth=80
 " Escapes with the press of jk in insert mode 
 inoremap jk <Esc> 
 
-" Auto install plug if not present
-"if empty(glob('~/.vim/autoload/plug.vim'))
-"  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-"    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-"endif
-"
-"Plug stuff
-"call plug#begin('~/.vim/plugged')
-"Plug 'rust-lang/rust.vim'
-"Plug 'vim-airline/vim-airline/'
-"Plug 'vim-airline/vim-airline-themes'
-"Plug 'dracula/vim'
-"call plug#end()
-" 
+
 " !!!!  air-line !!!!
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'angr'
