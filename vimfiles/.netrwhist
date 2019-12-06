@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='C:\Users\Atwood\go\src\github.com\Baudlicious\MongoDB_Test'
+let g:netrw_dirhist_2='C:/Users/Atwood'
+let g:netrw_dirhist_3='C:/Users/Atwood/go/src/github.com/Baudlicious/go_code/Sec10/slices2/main.go'
